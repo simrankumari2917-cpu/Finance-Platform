@@ -1,7 +1,7 @@
 @echo off
-title Push to GitHub - simrankumari2917-cpu/finance-platform
+title Push to GitHub - simrankumari2917-cpu/Finance-Platform
 echo ===================================================================
-echo   Pushing to GitHub: simrankumari2917-cpu/finance-platform
+echo   Pushing to GitHub: simrankumari2917-cpu/Finance-Platform
 echo ===================================================================
 echo.
 
@@ -24,13 +24,11 @@ if %ERRORLEVEL% EQU 0 (
     echo.
     echo ===================================================================
     echo   SUCCESS! Project pushed to:
-    echo   https://github.com/simrankumari2917-cpu/finance-platform
+    echo   https://github.com/simrankumari2917-cpu/Finance-Platform
     echo ===================================================================
 ) else (
     echo.
-    echo [NOTE] If the push failed with 404, please make sure you have created
-    echo an empty repository named 'finance-platform' on GitHub first at:
-    echo https://github.com/new
+    echo Push encountered an error. Please verify authentication.
 )
 
 echo.
